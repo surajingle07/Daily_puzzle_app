@@ -1,86 +1,82 @@
-🧩 Daily Puzzle Challenge App
+# 🧩 Daily Puzzle Challenge App
 
-A mobile-first Progressive Web Application (PWA) designed to improve logical thinking and aptitude skills through daily interactive puzzles, with full offline support.
+> A mobile-first Progressive Web App (PWA) for improving logical thinking through daily puzzles with offline support.
 
-🚀 Project Overview
+---
 
-The Daily Puzzle Challenge App delivers a set of puzzles every day and allows users to:
+## 🚀 Features
 
-Solve challenges even without internet (offline-first)
-Track their daily streaks
-Get instant feedback on answers
-Visualize performance with analytics
-🎯 Objectives
-Build a responsive mobile-first web app
-Implement offline-first architecture using IndexedDB
-Improve engagement with streak tracking system
-Deliver smooth UI/UX with animations
-⚙️ Working Principle
-Daily puzzles are stored using IndexedDB
-User answers are saved locally
-Streak logic tracks consecutive active days
-Heatmap visualizes user activity
-Instant feedback is shown after submission
-✨ Features
-🧠 Daily 10-question puzzle challenge
-📴 Offline functionality (PWA support)
-🔥 Streak tracking system
-📊 GitHub-style heatmap visualization
-🎨 Smooth animations using Framer Motion
-👤 Mock authentication (Login / Guest mode)
-⚡ Real-time answer feedback
-🧰 Tech Stack
-Frontend
-React 19
-Vite
-Styling & UI
-Tailwind CSS
-Framer Motion
-Lucide React
-Data Storage
-IndexedDB (idb library)
-Utilities
-Day.js
-Testing
-Vitest
-React Testing Library
-🏗️ System Architecture
-UI Layer: React Components
-State Management: React Hooks
-Storage Layer: IndexedDB
-Animation Layer: Framer Motion
-📸 Project Screenshots
+- 🧠 Daily 10-question puzzle challenge  
+- 📴 Offline-first functionality (IndexedDB)  
+- 🔥 Streak tracking system  
+- 📊 GitHub-style heatmap visualization  
+- ⚡ Instant answer feedback  
+- 🎨 Smooth animations (Framer Motion)  
+- 👤 Login / Guest mode  
 
-⚠️ Add screenshots in a screenshots folder in your repo
+---
 
-🏠 Home Page
+## 🎯 Objectives
 
-🧩 Puzzle Interface
+- Build responsive mobile-first app  
+- Implement offline-first architecture  
+- Improve engagement using streak tracking  
+- Deliver smooth UI/UX  
 
-🔥 Streak Tracker
+---
 
-📊 Heatmap Visualization
+## ⚙️ How It Works
+
+- Puzzles stored in IndexedDB  
+- Answers saved locally  
+- Streak calculated based on daily activity  
+- Heatmap shows user performance  
+- Instant feedback after submission  
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+- React 19
+- Vite
+
+### Styling & UI
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+
+### Storage
+- IndexedDB (idb)
+
+### Utilities
+- Day.js
+
+### Testing
+- Vitest
+- React Testing Library
+
+---
+
+## 🏗️ Architecture
+
+- UI Layer → React Components  
+- State → React Hooks  
+- Storage → IndexedDB  
+- Animation → Framer Motion  
+
+---
+
+## 📸 Screenshots
+
+### 📸 Screenshots
+
+### Output
+![Output](public/Op1.png)
+
+###
+![Output](public/Op2.png)
+### 
+![Output](public/Op3.png)
 
 
-📚 Learning Outcomes
-Progressive Web App (PWA) development
-Offline-first architecture
-IndexedDB integration
-UI/UX optimization
-State management using React Hooks
-⚠️ Challenges Faced
-Managing accurate streak logic
-Ensuring offline data consistency
-Smooth animations with dynamic data
-Performance optimization
-🔮 Future Scope
-🌐 Multiplayer mode
-🏆 Global leaderboard
-☁️ Backend integration (Firebase / PostgreSQL)
-🤖 AI-based difficulty adjustment
-📈 Advanced analytics dashboard
-📈 Improvements
-Add more puzzle types
-Cloud sync across devices
-Better performance optimization
-Increase test coverage
