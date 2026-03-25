@@ -1,73 +1,86 @@
-# React + TypeScript + Vite
+🧩 Daily Puzzle Challenge App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mobile-first Progressive Web Application (PWA) designed to improve logical thinking and aptitude skills through daily interactive puzzles, with full offline support.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Daily Puzzle Challenge App delivers a set of puzzles every day and allows users to:
 
-## React Compiler
+Solve challenges even without internet (offline-first)
+Track their daily streaks
+Get instant feedback on answers
+Visualize performance with analytics
+🎯 Objectives
+Build a responsive mobile-first web app
+Implement offline-first architecture using IndexedDB
+Improve engagement with streak tracking system
+Deliver smooth UI/UX with animations
+⚙️ Working Principle
+Daily puzzles are stored using IndexedDB
+User answers are saved locally
+Streak logic tracks consecutive active days
+Heatmap visualizes user activity
+Instant feedback is shown after submission
+✨ Features
+🧠 Daily 10-question puzzle challenge
+📴 Offline functionality (PWA support)
+🔥 Streak tracking system
+📊 GitHub-style heatmap visualization
+🎨 Smooth animations using Framer Motion
+👤 Mock authentication (Login / Guest mode)
+⚡ Real-time answer feedback
+🧰 Tech Stack
+Frontend
+React 19
+Vite
+Styling & UI
+Tailwind CSS
+Framer Motion
+Lucide React
+Data Storage
+IndexedDB (idb library)
+Utilities
+Day.js
+Testing
+Vitest
+React Testing Library
+🏗️ System Architecture
+UI Layer: React Components
+State Management: React Hooks
+Storage Layer: IndexedDB
+Animation Layer: Framer Motion
+📸 Project Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚠️ Add screenshots in a screenshots folder in your repo
 
-## Expanding the ESLint configuration
+🏠 Home Page
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🧩 Puzzle Interface
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🔥 Streak Tracker
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+📊 Heatmap Visualization
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📚 Learning Outcomes
+Progressive Web App (PWA) development
+Offline-first architecture
+IndexedDB integration
+UI/UX optimization
+State management using React Hooks
+⚠️ Challenges Faced
+Managing accurate streak logic
+Ensuring offline data consistency
+Smooth animations with dynamic data
+Performance optimization
+🔮 Future Scope
+🌐 Multiplayer mode
+🏆 Global leaderboard
+☁️ Backend integration (Firebase / PostgreSQL)
+🤖 AI-based difficulty adjustment
+📈 Advanced analytics dashboard
+📈 Improvements
+Add more puzzle types
+Cloud sync across devices
+Better performance optimization
+Increase test coverage
